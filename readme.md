@@ -4,6 +4,7 @@ DeepNav Navigation System
 Created by **Jacob Runge**
 
 Visit my [website](http://jacobrunge.com)!
+Also, check out the [DeepNav demo](http://jacobrunge.com/portfolio_entries/deepnav)!
 
 About DeepNav
 -------------
