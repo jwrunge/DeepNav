@@ -42,7 +42,7 @@ DeepNav takes an object full of options as it's second parameter. Those options 
 *  **displayMode**: Possible values include 'reponsive', 'horizontal', and 'stacked'; default is 'responsive'. 'Horizontal' will leave the menu in horizontal mode (best for wide screens); 'stacked' will leave the menu in 'stacked'/vertical mode (best for mobile devices in, say, a hamburger menu). 'responsive' will adapt itself between 'stacked' and 'horizontal' based on a breakpoint. 'responsive' also plays with the navigation style when your menu is in Hover Mode, removing hover functionality while the menu is stacked.
 *  **breakpoint**: A number value; default is 500. This defines the pixel width at which your menu changes from horizontal to stacked while in the responsive Display Mode.
 
-You can change any of these preferences on the fly if you set up a reference to your DeepNav instance (`var ref = new DeepNav('coolId'`) by altering `myNav.settings.settingIWantToChange`
+You can change any of these preferences on the fly if you set up a reference to your DeepNav instance (`var myNav = new DeepNav('coolId')`) by altering `myNav.settings.settingIWantToChange`
 
 Styling
 -------
