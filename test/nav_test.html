@@ -327,10 +327,10 @@
 		</ul>
 		<h2>How to</h2>
 		<ol>
-			<li>Include deepnav.js in a script tag in your document. (It's <a href='./deepnav.js'>here</a>. Or you can grab it minified <a href='./deepnav.min.js'>here</a>.) I'll provide other project inclusion methods if there is an interest!</li>
+			<li>Include deepnav.js in a script tag in your document (minfied <a href='../dist/deepnav.min.js'>here</a>), or via NPM using <span class='code'>npm install deepnav</span>, and including it in your source code with <span class='code'>import DeepNav from 'deepnav'</span>.</li>
 			<li>Create a navigation structure like the one shown below. This structure should include a div with an ID of your choosing. Your submenu anchors should contain a class called 'deepnav-link' and be followed by a div with the class 'sublinks'.</li>
 			<img src='./code_snip.jpg'/>
-			<li>Initialize DeepNav using <span class='code'>DeepNav(<i>yourChosenID</i>)</span></li>
+			<li>Initialize DeepNav using <span class='code'>new DeepNav(<i>yourChosenID</i>)</span></li>
 			<li>DeepNav should now take over your navigation structure... but it's not looking like you want it to. Fortunately, <span class='code'>DeepNav()</span> takes an optional second parameter, which you can pass an object full of settings (detailed in the next section).</li>
 		</ol>
 		<h2>Customization</h2>

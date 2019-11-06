@@ -22,12 +22,12 @@ Features
 How to
 ------
 
-1.  Include deepnav.js in a script tag in your document. (It's [here](./deepnav.js). Or you can grab it minified [here](./deepnav.min.js).) I'll provide other project inclusion methods if there is an interest!
+1.  Include deepnav.js in a script tag in your document (minfied [here](./dist/deepnav.min.js), or via NPM using `npm install deepnav`, and including it in your source code with `import DeepNav from 'deepnav'`.
 2.  Create a navigation structure like the one shown below. This structure should include a div with an ID of your choosing. Your submenu anchors should contain a class called 'deepnav-link' and be followed by a div with the class 'sublinks'.
-4.  Initialize DeepNav using `DeepNav(_yourChosenID_)`
+4.  Initialize DeepNav using `new DeepNav(_yourChosenID_)`
 5.  DeepNav should now take over your navigation structure... but it's not looking like you want it to. Fortunately, `DeepNav()` takes an optional second parameter, which you can pass an object full of settings (detailed in the next section).
 
-![](./code_snip.jpg)
+![](./test/code_snip.jpg)
 
 Customization
 -------------
