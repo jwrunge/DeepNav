@@ -1,0 +1,360 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+
+			body { margin: 0; overflow-x: hidden;}
+
+			#deepnav {
+				position: relative;
+				z-index:3000;
+			}
+
+			#deepnav2.stacked {
+				margin-top: 2em;
+				height: auto;
+				max-width: 100%;
+			}
+
+			.mainthing {
+				margin-top: 1em;
+				padding: 1em;
+			}
+
+			.code {
+				background-color: lightgray;
+				font-family: 'Courier New', Courier, monospace;
+			}
+
+			@media screen and (min-width: 500px) {
+				#deepnav2 {
+					height: 75vh;
+				}
+			}
+
+			img {
+				display: block;
+				width: 80%;
+				max-width: 500px;
+				margin: 1em auto;
+			}
+		
+		</style>
+</head>
+<body>
+
+<div id='deepnav'>
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+</div>
+
+<div class='row'>
+	<div id='deepnav2' class='col-sm-12 col-md-4'>
+		<a class='deepnav-link'>Level 1 click</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+	
+			<a class='deepnav-link'>Level 2 click</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+			</div>
+	
+			<a class='deepnav-link'>Level 2 click</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 3</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 4</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 5</a>
+						<div class='sublinks'>
+							<a>Terminal Link</a>
+						</div>
+					</div>
+				</div>		
+	
+				<a>Terminal link</a>
+			</div>
+		</div>
+	
+		<a class='deepnav-link'>Level 1 click</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+	
+			<a class='deepnav-link'>Great LINK!</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+			</div>
+	
+			<a class='deepnav-link'>Level 2 click</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 3</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 4</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 5</a>
+						<div class='sublinks'>
+							<a>Terminal Link</a>
+						</div>
+					</div>
+				</div>		
+	
+				<a>Terminal link</a>
+			</div>
+		</div>
+	
+		<a class='deepnav-link'>Level 1 click</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+	
+			<a class='deepnav-link'>Great LINK!</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+			</div>
+	
+			<a class='deepnav-link'>Level 2 click</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 3</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 4</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 5</a>
+						<div class='sublinks'>
+							<a>Terminal Link</a>
+						</div>
+					</div>
+				</div>		
+	
+				<a>Terminal link</a>
+			</div>
+		</div>
+	
+		<a class='deepnav-link'>Level 1 click</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+	
+			<a class='deepnav-link'>Great LINK!</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+			</div>
+	
+			<a class='deepnav-link'>Level 2 click</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 3</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 4</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 5</a>
+						<div class='sublinks'>
+							<a>Terminal Link</a>
+						</div>
+					</div>
+				</div>		
+	
+				<a>Terminal link</a>
+			</div>
+		</div>
+	
+		<a class='deepnav-link'>Level 1 click</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+	
+			<a class='deepnav-link'>Great LINK!</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+			</div>
+	
+			<a class='deepnav-link'>Level 2 click</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 3</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 4</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 5</a>
+						<div class='sublinks'>
+							<a>Terminal Link</a>
+						</div>
+					</div>
+				</div>		
+	
+				<a>Terminal link</a>
+			</div>
+		</div>
+	</div>
+
+	<div class='mainthing col-sm-12 col-md-8'>
+
+		<h1>DeepNav Navigation System</h1>
+		<div>Created by <strong>Jacob Runge</strong></div>
+		<div class='mb-3'>Visit my <a href='http://jacobrunge.com'>website</a>!</div>
+		<h2>About DeepNav</h2>
+		<p>The purpose of DeepNav is to provide a flexible, multilevel, drop-in navigation system that requires minimal in-HTML markup. DeepNav supports as many levels of navigation as good taste will allow, and then some. You need only set up a couple of divs and anchors, initialize DeepNav, and you're good to go!</p>
+		<h2>Features</h2>
+		<ul>
+			<li>As many nested levels of navigation as you dare</li>
+			<li>Options for click-to-open menus, hover-only menus, or top-level hovering with clickable submenus</li>
+			<li>Easy-to-implement responsivity</li>
+			<li>Easily stylable and highly customizable</li>
+		</ul>
+		<h2>How to</h2>
+		<ol>
+			<li>Include deepnav.js in a script tag in your document. (It's <a href='./deepnav.js'>here</a>. Or you can grab it minified <a href='./deepnav.min.js'>here</a>.) I'll provide other project inclusion methods if there is an interest!</li>
+			<li>Create a navigation structure like the one shown below. This structure should include a div with an ID of your choosing. Your submenu anchors should contain a class called 'deepnav-link' and be followed by a div with the class 'sublinks'.</li>
+			<img src='./code_snip.jpg'/>
+			<li>Initialize DeepNav using <span class='code'>DeepNav(<i>yourChosenID</i>)</span></li>
+			<li>DeepNav should now take over your navigation structure... but it's not looking like you want it to. Fortunately, <span class='code'>DeepNav()</span> takes an optional second parameter, which you can pass an object full of settings (detailed in the next section).</li>
+		</ol>
+		<h2>Customization</h2>
+		<p>DeepNav takes an object full of options as it's second parameter. Those options include: </p>
+		<ol>
+			<li><strong>hoverMode</strong>: Possible values include 'all', 'top_only', or boolean false; default is false. This determines whether or not your anchors will open submenus on hover (they always respond to 'click'). 'all' signifies that all anchors will open submenus on hover (this is really a nightmare with a stacked menu); 'top_only' means that only your top-level anchors will respond to hover (you have to click on submenu anchors); false means users have to click.</li>
+			<li><strong>alignSubmenus</strong>: Possible values include 'right', 'left', and 'center' (default 'center'). This affects how dropdown menus are displayed relative to the anchor when DeepNav is not in 'stacked' mode (i.e. a horizontal rather than a vertical menu). No worries--DeepNav will do its best not to let your menu go off-screen; if a menu is aligned 'left' and goes off-screen to the right, DeepNav will automatically change alignment to 'right' for that menu.</li>
+			<li><strong>showContentArrows</strong>: Possible values include boolean true or false (default true). This determines whether or not DeepNav adds open/close arrows to submenus. You MUST encode your HTML with UTF-8 (meta charset='utf-8' in the document head) for this to work anywhere outside of Chrome.</li>
+			<li><strong>showDefaultAnimations</strong>: Possible values include boolean true or false (default true). This determines whether or not DeepNav is allowed to animate the opening and closing of your submenus. For the most part, I think the animations are sufficient for most designs.</li>
+			<li><strong>showAestheticStyling</strong>: Possible values include boolean true or false (default true). You'll probably want to set this one to false to give you some control over the aesthetic styling, or else your navigation will come out looking like it does at the top of this page.</li>
+			<li><strong>displayMode</strong>: Possible values include 'reponsive', 'horizontal', and 'stacked'; default is 'responsive'. 'Horizontal' will leave the menu in horizontal mode (best for wide screens); 'stacked' will leave the menu in 'stacked'/vertical mode (best for mobile devices in, say, a hamburger menu). 'responsive' will adapt itself between 'stacked' and 'horizontal' based on a breakpoint. 'responsive' also plays with the navigation style when your menu is in Hover Mode, removing hover functionality while the menu is stacked.</li>
+			<li><strong>breakpoint</strong>: A number value; default is 500. This defines the pixel width at which your menu changes from horizontal to stacked while in the responsive Display Mode.</li>
+		</ol>
+		<p>You can change any of these preferences on the fly if you set up a reference to your DeepNav instance (<span class='code'>var ref = new DeepNav('coolId')</span> by altering <span class='code'>myNav.settings.settingIWantToChange</span></p>
+		<h2>Styling</h2>
+		<p>DeepNav programmatically sets some initial styles for each instance of DeepNav that you invoke. These styles are placed at the beginning of your document head so that they can be overridden easily, but the aesthetic styles are pretty tough to override. I recommend you disable them.</p>
+	</div>
+</div>
+
+</body>
+</html>
+
+<script src='../dist/deepnav.min.js'></script>
+<script>
+	new DeepNav('deepnav', {alignSubmenus: 'center', hoverMode: 'top_only'})
+	new DeepNav('deepnav2', {displayMode: 'stacked'})
+</script>
