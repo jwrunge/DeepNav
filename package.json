@@ -1,6 +1,6 @@
 {
   "name": "deepnav",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Reusable multilevel navigation utility written in vanilla JS.",
   "main": "dist/deepnav.js",
   "keywords": [

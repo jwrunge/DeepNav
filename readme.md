@@ -5,6 +5,7 @@ Created by **Jacob Runge**
 
 Visit my [website](http://jacobrunge.com)!
 Also, check out the [DeepNav demo](http://jacobrunge.com/portfolio_entries/deepnav)!
+Code on [GitHub](https://github.com/jwrunge/DeepNav)
 
 About DeepNav
 -------------
@@ -22,7 +23,7 @@ Features
 How to
 ------
 
-1.  Include deepnav.js in a script tag in your document (minfied [here](./dist/deepnav.min.js)), or via NPM using `npm install deepnav`, and including it in your source code with `import DeepNav from 'deepnav'`.
+1.  Include deepnav.js in a script tag in your document (minfied [here](https://raw.githubusercontent.com/jwrunge/DeepNav/master/dist/deepnav.min.js)), or via NPM using `npm install deepnav`, and including it in your source code with `import DeepNav from 'deepnav'`.
 2.  Create a navigation structure like the one shown below. This structure should include a div with an ID of your choosing. Your submenu anchors should contain a class called 'deepnav-link' and be followed by a div with the class 'sublinks'.
 4.  Initialize DeepNav using `new DeepNav(_yourChosenID_)`
 5.  DeepNav should now take over your navigation structure... but it's not looking like you want it to. Fortunately, `DeepNav()` takes an optional second parameter, which you can pass an object full of settings (detailed in the next section).
