@@ -7,7 +7,7 @@ Features:
 *   Easy-to-implement responsivity
 *   Easily stylable and highly customizable
 
-Check out [the CodePen example](https://codepen.io/jwrunge/pen/eYWmQwY) to play around with settings and styling. -updating soon!
+Check out [the CodePen example](https://codepen.io/jwrunge/pen/eYWmQwY) to play around with settings and styling.
 
 ## Contents
 1. [Development][1]
