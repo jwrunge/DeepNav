@@ -1,0 +1,326 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<style>
+		body { margin: 0; overflow-x: hidden;}
+		#deepnav {
+			position: relative;
+			z-index: 10;
+		}
+		#deepnav2.stacked {
+			margin-top: 2em;
+			height: auto;
+			max-width: 100%;
+		}
+		.row {
+			display: grid;
+			grid-template-columns: 1fr 4fr;
+			grid-gap: 2em;
+		}
+		.right {
+			padding-right: 3em;
+		}
+		@media screen and (max-width: 750px) {
+			.row {
+				display: block;
+			}
+			.right {
+				padding: 2em;
+			}
+		}
+	</style>
+</head>
+
+<body>
+<div id='deepnav'>
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+
+	<a class='deepnav-link'>Level 1 hover</a>
+	<div class='sublinks'>
+		<a>Terminal link</a>
+
+		<a class='deepnav-link'>Great LINK!</a>
+		<div class='sublinks'>
+			<a>Terminal link</a>
+		</div>
+
+		<a class='deepnav-link'>Level 2 click</a>
+		<div class='sublinks'>
+			<a class='deepnav-link'>Level 3</a>
+			<div class='sublinks'>
+				<a class='deepnav-link'>Level 4</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 5</a>
+					<div class='sublinks'>
+						<a>Terminal Link</a>
+					</div>
+				</div>
+			</div>		
+
+			<a>Terminal link</a>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="left">
+		<div id='deepnav2' class='col-sm-12 col-md-4'>
+			<a class='deepnav-link'>Level 1 click</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+	
+				<a class='deepnav-link'>Level 2 click</a>
+				<div class='sublinks'>
+					<a>Terminal link</a>
+				</div>
+	
+				<a class='deepnav-link'>Level 2 click</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 3</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 4</a>
+						<div class='sublinks'>
+							<a class='deepnav-link'>Level 5</a>
+							<div class='sublinks'>
+								<a>Terminal Link</a>
+							</div>
+						</div>
+					</div>
+	
+					<a>Terminal link</a>
+				</div>
+			</div>
+	
+			<a class='deepnav-link'>Level 1 click</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+	
+				<a class='deepnav-link'>Great LINK!</a>
+				<div class='sublinks'>
+					<a>Terminal link</a>
+				</div>
+	
+				<a class='deepnav-link'>Level 2 click</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 3</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 4</a>
+						<div class='sublinks'>
+							<a class='deepnav-link'>Level 5</a>
+							<div class='sublinks'>
+								<a>Terminal Link</a>
+							</div>
+						</div>
+					</div>
+	
+					<a>Terminal link</a>
+				</div>
+			</div>
+	
+			<a class='deepnav-link'>Level 1 click</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+	
+				<a class='deepnav-link'>Great LINK!</a>
+				<div class='sublinks'>
+					<a>Terminal link</a>
+				</div>
+	
+				<a class='deepnav-link'>Level 2 click</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 3</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 4</a>
+						<div class='sublinks'>
+							<a class='deepnav-link'>Level 5</a>
+							<div class='sublinks'>
+								<a>Terminal Link</a>
+							</div>
+						</div>
+					</div>
+	
+					<a>Terminal link</a>
+				</div>
+			</div>
+	
+			<a class='deepnav-link'>Level 1 click</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+	
+				<a class='deepnav-link'>Great LINK!</a>
+				<div class='sublinks'>
+					<a>Terminal link</a>
+				</div>
+	
+				<a class='deepnav-link'>Level 2 click</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 3</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 4</a>
+						<div class='sublinks'>
+							<a class='deepnav-link'>Level 5</a>
+							<div class='sublinks'>
+								<a>Terminal Link</a>
+							</div>
+						</div>
+					</div>
+	
+					<a>Terminal link</a>
+				</div>
+			</div>
+	
+			<a class='deepnav-link'>Level 1 click</a>
+			<div class='sublinks'>
+				<a>Terminal link</a>
+	
+				<a class='deepnav-link'>Great LINK!</a>
+				<div class='sublinks'>
+					<a>Terminal link</a>
+				</div>
+	
+				<a class='deepnav-link'>Level 2 click</a>
+				<div class='sublinks'>
+					<a class='deepnav-link'>Level 3</a>
+					<div class='sublinks'>
+						<a class='deepnav-link'>Level 4</a>
+						<div class='sublinks'>
+							<a class='deepnav-link'>Level 5</a>
+							<div class='sublinks'>
+								<a>Terminal Link</a>
+							</div>
+						</div>
+					</div>
+	
+					<a>Terminal link</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="right">
+		<h1>Check out DeepNav!</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed ante vel velit volutpat blandit. Proin sed sapien rhoncus, tempus eros ut, iaculis nisi. Integer in lobortis tellus. Donec volutpat leo sed risus placerat porta. Nam consequat dictum dui, in ullamcorper nibh varius ut. Phasellus eget justo pretium, pretium lorem a, ultrices lorem. Sed quis felis turpis. Ut sit amet quam augue.</p>
+		<p>Suspendisse volutpat, est ac sodales iaculis, neque turpis congue diam, ut tempus urna nisi et sapien. Nam nec ante pretium dolor sodales blandit ac nec dolor. Praesent ultrices vel massa vitae tempus. Donec molestie purus quam, eu ultricies enim sagittis blandit. Aenean sit amet mauris fringilla, venenatis dolor id, ornare neque. Praesent feugiat luctus condimentum. Nam mollis feugiat fermentum. Nullam pulvinar sagittis urna, nec vestibulum neque mollis vel.</p>
+		<p>Vestibulum iaculis finibus fringilla. Nunc hendrerit venenatis nunc at vestibulum. Nullam et condimentum enim, in venenatis lectus. Aenean pellentesque arcu eget molestie molestie. In maximus lectus ut eros tempor commodo. Nullam ante est, sagittis ac turpis non, condimentum interdum purus. Curabitur tempor risus mauris, vel volutpat urna tristique vel. Integer tempor lacinia orci vitae aliquam. Fusce lobortis vehicula imperdiet.</p>
+		<p>Aliquam erat volutpat. Mauris et arcu auctor, bibendum velit posuere, condimentum eros. Nunc nec diam nec massa mollis dictum eu sit amet dui. Phasellus non interdum nisi. Quisque eu justo tincidunt, semper nunc id, blandit sem. Aliquam erat volutpat. Nulla tincidunt dui vitae semper ullamcorper. Curabitur sit amet quam sit amet ex auctor iaculis. Ut velit turpis, rhoncus id pellentesque id, ornare vel ligula. Ut convallis blandit nulla sit amet egestas. Morbi rutrum nibh feugiat leo viverra, at iaculis mi lobortis. Donec maximus felis a libero posuere, sed sagittis mauris cursus. Donec congue malesuada nisl, ut aliquet leo malesuada vel.</p>
+		<p>Etiam nisl est, mattis at commodo rhoncus, tempor ac est. Suspendisse mattis fermentum lectus vehicula molestie. Nam tempor, leo sit amet pretium iaculis, sapien sem cursus ipsum, eget placerat neque odio suscipit risus. Aenean in est quis elit lobortis porttitor id et eros. Nulla id lorem sodales, malesuada lorem non, porttitor lorem. Phasellus id magna eget risus finibus mattis. Cras at nunc mollis nisi interdum semper non a neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam finibus leo eu nulla imperdiet, nec laoreet erat suscipit. Donec tempor, tellus sit amet accumsan viverra, tellus quam dictum dui, sed congue elit elit non purus. Integer dignissim varius ullamcorper.</p>
+	</div>
+</div>
+</body>
+</html>
+
+<script src="dist/deepnav.js"></script>
+<script>
+	new deepnav('deepnav', {alignSubmenus: 'center', hoverMode: 'top_only'})
+	new deepnav('deepnav2', {displayMode: 'stacked'})
+</script>
+
+<!-- <script type="module">
+	import "./dist/deepnav.js"
+	new deepnav('deepnav', {alignSubmenus: 'center', hoverMode: 'top_only'})
+	new deepnav('deepnav2', {displayMode: 'stacked'})
+</script> -->

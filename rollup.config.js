@@ -1,34 +1,30 @@
-import resolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
 import { terser } from 'rollup-plugin-terser';
-import babel from 'rollup-plugin-babel'
+import babel from '@rollup/plugin-babel'
 
 const production = !process.env.ROLLUP_WATCH;
+
+const babelSettings = {
+    babelHelpers: 'runtime',
+    extensions: [ '.js', '.mjs', '.html' ],
+    plugins: ['@babel/plugin-external-helpers', '@babel/plugin-transform-runtime', '@babel/plugin-proposal-object-rest-spread']
+}
 
 export default {
 	input: 'src/deepnav.js',
 	output: {
 		sourcemap: true,
-		format: 'iife',
-		name: 'app',
+		format: 'umd',
+		name: 'deepnav',
 		file: 'dist/deepnav.js'
 	},
 	plugins: [
-		babel({
-            extensions: [ '.js', '.mjs', '.html', '.svelte' ],
-            exclude: 'node_modules/**'
-		}),
+		babel(babelSettings),
 
-		// If you have external dependencies installed from
-		// npm, you'll most likely need these plugins. In
-		// some cases you'll need additional configuration —
-		// consult the documentation for details:
-		// https://github.com/rollup/rollup-plugin-commonjs
 		resolve({ browser: true }),
 		commonjs(),
 
-		// If we're building for production (npm run build
-		// instead of npm run dev), minify
 		production && terser()
 	]
 };
