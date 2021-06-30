@@ -50,7 +50,7 @@ Importing via script tag is easy-peasy:
 If importing via NPM, *do not* name your import. It will be available in your code as `deepnav`.
 ```
 <script type="module">
-    import '@jwrunge/modal'
+    import '@jwrunge/deepnav'
     new deepnav("myNav", {options})
 </script>
 ```
