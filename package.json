@@ -1,6 +1,6 @@
 {
   "name": "@jwrunge/deepnav",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Multilevel navigation utility written in vanilla JS.",
   "main": "dist/deepnav.js",
   "keywords": [

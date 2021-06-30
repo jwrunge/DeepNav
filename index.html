@@ -168,7 +168,7 @@
 
 <div class="row">
 	<div class="left">
-		<div id='deepnav2' class='col-sm-12 col-md-4'>
+		<div id='deepnav2'>
 			<a class='deepnav-link'>Level 1 click</a>
 			<div class='sublinks'>
 				<a>Terminal link</a>
@@ -315,7 +315,7 @@
 
 <script src="dist/deepnav.js"></script>
 <script>
-	new deepnav('deepnav', {alignSubmenus: 'center', hoverMode: 'top_only'})
+	new deepnav('deepnav', {alignSubmenus: 'center', breakpoint: 750})
 	new deepnav('deepnav2', {displayMode: 'stacked'})
 </script>
 
